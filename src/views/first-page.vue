@@ -35,8 +35,8 @@
           事件分析
         </div>
         <div class="display">
-          <div class="chart" ref="chart1">11</div>
-          <div class="chart" ref="chart2">11</div>
+          <div class="chart" ref="chart1"></div>
+          <div class="chart" ref="chart2"></div>
         </div>
       </div>
       <div class="view-third-forth">
@@ -44,8 +44,8 @@
           巡查分析
         </div>
         <div class="display">
-          <div class="chart" ref="chart3">11</div>
-          <div class="chart" ref="chart4">11</div>
+          <div class="chart" ref="chart3"></div>
+          <div class="chart" ref="chart4"></div>
         </div>
       </div>
     </div>
