@@ -4,8 +4,8 @@
       <div class="view-first">
         <div class="select-button">
           <div class="time-button">
-            <button :class="{active:isSelect}" @click="clickMonth">月</button>
-            <button :class="{active:!isSelect}" @click="clickYear">年</button>
+            <button :class="{'active':isSelect}" @click="clickMonth">月</button>
+            <button :class="{'active':!isSelect}" @click="clickYear">年</button>
           </div>
           <div class="time-select">
             <span v-if="isSelect" class="span-right">月份</span>
